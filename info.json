@@ -1,0 +1,82 @@
+{
+    "basicInfo": {
+        "name": "Liutong Chen",
+        "address": "Vancouver, British Columbia, Canada",
+        "email": "liutong.clt@gmail.com",
+        "github": "https://github.com/liutongchen",
+        "linkedin": "https://www.linkedin.com/in/liutongchen/",
+        "tel": "(+1)778-317-2955"
+    },
+
+    "overview": "As a self-taught developer passionate about programming and education, I want to make a difference to theworld through creativity and technology.",
+
+    "projects": {
+        "project1": {
+            "title": "Gomoku Game",
+            "link": "https://codepen.io/Liutongchen/pen/YQRPEZ",
+            "projectInfo": "A Japanese strategy board game between two players.",
+            "tech": ["ReactJS"]
+        },
+        "project2": {
+            "title": "Kicktasks",
+            "link": "https://github.com/liutongchen/Kicktasks",
+            "projectInfo": "A single-page task management web application that combines a todolist, pomodoro and a goalmonitoring tool that works as scrum.",
+            "tech": ["ReactJS", "Redux", "Bootstrap"]
+        },
+        "project3": {
+            "title": "GZWT Company's Website",
+            "link": "https://github.com/liutongchen/Guangzhou-Whole-sale-trading-Co.-LTD",
+            "projectInfo": "An ongoing company website for Guangzhou Whole-sale Trading Company, China.",
+            "tech": ["Bootstrap", "jQuery"]
+        },
+        "project4": {
+            "title": "Battleship Game",
+            "link": "",
+            "projectInfo": "A guessing game for two players.",
+            "tech": ["Python"]
+        }
+    },
+
+    "education": {
+        "education1": {
+            "startTime": "Sept.2012",
+            "endTime": "Jul.2016",
+            "school": "Guangdong University of Foreign Studies",
+            "degree": "B.A. in English Culture and Communication",
+            "performance": "top 5%" 
+        },
+
+        "education2": {
+            "startTime": "Jan.2017",
+            "endTime": "present",
+            "school": "Self-learning Software Development",
+            "degree": "",
+            "performance": "",
+            //unique properties:
+            "bookList": ["Secrets of Javascript Ninja","Head First JavaScript Programming", "Head First HTML5"],
+            "courseList": ["Interactive Programming in Python (Rice University, License 5RT7A7EZAMC5)", 
+                           "Python Data Structures(University of Michigan, License XQNKMRTQHQAU)",
+                           "Building Applications with React and Redux in ES6 (Pluralsight)"]
+        }
+    },
+
+    "skills": ["Javascript", "Python", "ReactJS", "Redux", "React-Thunk", "Bootstrap", "JQuery", "Gulp", "Webpack", "Babel", "NPM", "Postman","HTTP", "Git", "HTML", "CSS"],
+    "passion": {
+        "motto": "Coding for Good",
+        "items": {
+            "item1": {
+                "name": "Animal Protection",
+                "imgink": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1499749001/personalWebsite/IMG_6951.jpg"
+            },
+            "item2": {
+                "name": "Education Equality",
+                "imgLink": "http://balacalara.net/wp-content/uploads/2014/12/pcs4kids-logo-no.png"
+            },
+            "item3": {
+                "name": "Zero Hunger",
+                "imgLink": "http://tva4.sinaimg.cn/crop.16.11.275.275.180/7ab7fbecjw8esase34soqj208c08c3z3.jpg",
+                "audioLink": "http://mp.weixin.qq.com/s/zvNFieVBgvJO73HCs3-gag"
+            }
+        }
+    }
+}
