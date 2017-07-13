@@ -1,2 +1,1 @@
-# liutong-chen-website
-A personal website about me
+Personal website of Liutong Chen
