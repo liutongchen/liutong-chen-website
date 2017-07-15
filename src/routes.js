@@ -13,4 +13,4 @@ export default (
         <Route path="passion" component={PassionPage}/>
         <Route path="contact" component={ContactPage}/>
     </Route>
-)
+);

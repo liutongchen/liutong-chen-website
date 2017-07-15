@@ -1,3 +1,53 @@
+/*-------App.js-----------*/
 .img-circle {
     border-radius: 50%;
+}
+
+.navbar-brand {
+    min-height: 150px;
+}
+
+.navbar.navbar-inverse{
+    margin-bottom: 0;
+}
+
+/*---------HomePage.js----------*/
+#homePageTitle {
+    padding-top: 200px;
+    padding-bottom: 250px;
+    text-align: center;
+    background-size: cover;
+    background-color: #edded9;
+    margin: 0;
+    
+}
+
+#homePageSelfie {
+    max-height: 200px;
+    display: block;
+    margin: auto;
+}
+
+#overview {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    min-height: 50px;
+    background-color: #edded9;
+}
+
+#projectIntroImg {
+    display: block;
+    margin: auto;
+    max-height: 200px;
+}
+
+/*---------ProjectPage.js------------*/
+#projectIntro {
+    padding: 100px;
+    text-align: center;
 }
