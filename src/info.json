@@ -15,31 +15,33 @@
     "projects": [
         {
             "title": "Gomoku Game",
-            "image": ["http://res.cloudinary.com/dla0ocfbw/image/upload/v1500078412/personalWebsite/Gomoku.jpg"],
+            "image": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500078412/personalWebsite/Gomoku.jpg",
             "link": "https://codepen.io/Liutongchen/pen/YQRPEZ",
             "projectInfo": "A Japanese strategy board game between two players.",
             "tech": ["ReactJS"]
         },
         {
             "title": "Kicktasks",
-            "image":["http://res.cloudinary.com/dla0ocfbw/image/upload/v1500078827/personalWebsite/Screen_Shot_2017-07-14_at_5.29.42_PM.png"],
+            "image":"http://res.cloudinary.com/dla0ocfbw/image/upload/v1500078827/personalWebsite/Screen_Shot_2017-07-14_at_5.29.42_PM.png",
             "link": "https://github.com/liutongchen/Kicktasks",
-            "projectInfo": "A single-page task management web application that combines a todolist, pomodoro and a goalmonitoring tool that works as scrum.", "tech": ["ReactJS", "Redux", "Bootstrap"] }, {
+            "projectInfo": "A single-page task management web application that combines a todolist, pomodoro and a goalmonitoring tool that works as scrum.", "tech": ["ReactJS", "Redux", "Bootstrap"] }, 
+        {
             "title": "GZWT Company's Website",
+            "image": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500332214/personalWebsite/Screen_Shot_2017-07-17_at_3.49.08_PM.png",
             "link": "https://github.com/liutongchen/Guangzhou-Whole-sale-trading-Co.-LTD",
             "projectInfo": "An ongoing company website for Guangzhou Whole-sale Trading Company, China.",
             "tech": ["Bootstrap", "jQuery"]
         },
         {
             "title": "Battleship Game",
-            "image":["https://www.google.ca/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwjTsPXlhorVAhUC1GMKHabdD-8QjRwIBw&url=https%3A%2F%2Ficons8.com%2Ficon%2F24072%2Fbattleship&psig=AFQjCNGO-_n0m1h86zadTKUh3aLIGcAqjw&ust=1500165607865324"],
+            "image":"http://res.cloudinary.com/dla0ocfbw/image/upload/v1500332211/personalWebsite/battleship.jpg",
             "link": "https://github.com/liutongchen/Interactive-programming-in-python",
             "projectInfo": "A guessing game for two players.",
             "tech": ["Python"]
         },
         {
             "title": "PCs4Kids",
-            "image": ["http://storage5.static.itmages.ru/i/13/1206/s_1386346763_8037831_7e2b7fd7d7.png"],
+            "image": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500332211/personalWebsite/pcs4kids-logo-no.png",
             "link": "http://www.pcs4kids.org/",
             "projectInfo": "Wait until Mugdha give me the detailed jd",
             "tech": ["Javascript"]
@@ -70,20 +72,28 @@
 
     "skills": ["Javascript", "Python", "ReactJS", "Redux", "React-Thunk", "Bootstrap", "JQuery", "Gulp", "Webpack", "Babel", "NPM", "Postman","HTTP", "Git", "HTML", "CSS"],
     "passion": {
-        "motto": "Coding for Good",
+        "intro": {
+            "motto": "Coding for Good",
+            "description": "My dream has been and always will be - making the world a better place for every creature on the planet to live on.",
+            "img": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500335588/personalWebsite/1-earth.png"
+        },
+
         "items": [
             {
-                "name": "Animal Protection",
-                "imgink": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1499749001/personalWebsite/IMG_6951.jpg"
+                "name": "Environmental Protection",
+                "img": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1499749001/personalWebsite/IMG_6951.jpg",
+                "description": "To help our younger generation understand how human activities can influence the life of other animals on the planet, I work as a part-time marine Educator at Vancouver Aquarium Marine Science Center. "
             },
             {
                 "name": "Education Equality",
-                "imgLink": "http://balacalara.net/wp-content/uploads/2014/12/pcs4kids-logo-no.png"
+                "img": "http://balacalara.net/wp-content/uploads/2014/12/pcs4kids-logo-no.png",
+                "description": "I work as a web developer for a non-profit organization called PCs4Kids that creates an amazing children-friendly software interface filled with a package of free educational software contents for children from Kindergarten to Grade 12 using recycled computers."
             },
             {
                 "name": "Zero Hunger",
-                "imgLink": "http://tva4.sinaimg.cn/crop.16.11.275.275.180/7ab7fbecjw8esase34soqj208c08c3z3.jpg",
-                "audioLink": "http://mp.weixin.qq.com/s/zvNFieVBgvJO73HCs3-gag"
+                "img": "http://tva4.sinaimg.cn/crop.16.11.275.275.180/7ab7fbecjw8esase34soqj208c08c3z3.jpg",
+                "audioLink": "http://mp.weixin.qq.com/s/zvNFieVBgvJO73HCs3-gag",
+                "description": "For more than three years, I have been working as a radio host for a program named 'Free Lunch for Children', dedicated to providing free lunch to kids of underdeveloped areas in China."
             }
         ]
     }
