@@ -1,8 +1,14 @@
-/*-------App.js-----------*/
+/*--------general---------*/
 .img-circle {
     border-radius: 50%;
 }
 
+.divider {
+    display: inline-block;
+    min-width: 100px;
+}
+
+/*-------App.js-----------*/
 .navbar-brand {
     min-height: 150px;
 }
@@ -84,3 +90,16 @@
     margin-top: 100px;
     text-align: center;
 }
+
+/*-------------ContactPage.js----------*/
+#contactIcon img{
+    width: 60%;    
+}
+
+#contactPageTitle {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#contactCategories {}
