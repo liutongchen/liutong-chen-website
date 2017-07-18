@@ -23,7 +23,7 @@ class ProjectsPage extends React.Component {
                 <ProjectComponents projectsList={personalInfo.projects}/>
             </div>
         );
-    };
-};
+    }
+}
 
 export default ProjectsPage;
