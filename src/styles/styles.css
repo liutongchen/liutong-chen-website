@@ -91,6 +91,10 @@
     text-align: center;
 }
 
+#passionComp {
+    margin-bottom: 5%;
+}
+
 /*-------------ContactPage.js----------*/
 #contactIcon img{
     width: 60%;    
@@ -102,4 +106,7 @@
     margin-bottom: 5%;
 }
 
-#contactCategories {}
+#contactIcon {
+    text-align: center;
+    margin-bottom: 15%;
+}
