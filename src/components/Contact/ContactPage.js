@@ -24,7 +24,7 @@ const ContactPage = () => {
                 </Col>
             </Row>
         </div>
-    )
-}
+    );
+};
 
 export default ContactPage;

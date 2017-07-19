@@ -14,7 +14,7 @@ const PassionPage = () => {
 
             <PassionComponents passionList={personalInfo.passion.items}/>
         </div>
-    )
-}
+    );
+};
 
 export default PassionPage;

@@ -12,13 +12,15 @@ const ProjectComponents = ({projectsList}) => {
                 <p className="projectInfo">{project.projectInfo}</p>
                 <a href={project.link} target="_blank"><Button bsStyle="primary">Learn More</Button></a>
             </div>
-        )
+        );
     });
-    return <div id="projectComp">{projectsElements}</div>
-}
+    return (
+        <div id="projectComp"> {projectsElements} </div>
+    );
+};
 
 ProjectComponents.propTypes = {
     projectsList: PropTypes.array.isRequired
-}
+};
 
 export default ProjectComponents;

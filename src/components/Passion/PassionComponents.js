@@ -3,14 +3,12 @@ import PropTypes from 'prop-types';
 import {Col, Row} from 'react-bootstrap';
 
 const PassionComponents = ({passionList}) => {
-    let passionImgId = -1
-    const passionElements = passionList.map(item => {
-        passionImgId += 1
+    const passionElements = passionList.map((item, index) => {
         return (
-            <Row>
+            <Row key={index}>
                 <Col mdOffset={3} md={6} className="passionItems" key={item.name}>
                     {
-                        passionImgId % 2 !== 0 ?
+                        index % 2 !== 0 ?
                         <img 
                             className="img-circle" 
                             src={item.img} 
