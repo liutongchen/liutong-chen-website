@@ -1,4 +1,19 @@
 /*--------general---------*/
+body {
+    padding-top: 100px;
+}
+
+h2, h3 {
+    font-family: 'Nunito', sans-serif;
+    color: #258aad;
+}
+
+p {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
 .img-circle {
     border-radius: 50%;
 }
@@ -8,15 +23,22 @@
     min-width: 100px;
 }
 
-/*-------App.js-----------*/
+
+
+/*-------Header.js-----------*/
 .navbar-brand {
     min-height: 100px;
 }
 
 .navbar.navbar-inverse{
+    width: 100%;
+    height: 100px;
     margin-bottom: 0;
     background-color:#edded9;
     border:#edded9;
+    position: fixed;
+    top: 0;
+    transition: opacity 0.5s;
 }
 
 .navbar-right {
@@ -24,7 +46,24 @@
     font-size: 18px;
 }
 
+.nav-up {
+    top: -40px;
+    opacity: 0;
+}
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:hover,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav li a:hover {
+    color: #284764;
+    background-color: transparent;
+}
+
 /*---------HomePage.js----------*/
+h1 {
+    font-family: 'Handlee', cursive;
+}
+
 #homePageTitle {
     padding-top: 100px;
     padding-bottom: 420px;
@@ -35,6 +74,12 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     margin: 0;
+    /*color: #284764*/
+    color: #258aad;
+}
+
+#homePageTitle p {
+    font-size: 20px;
 }
 
 #homePageSelfie {
@@ -63,7 +108,7 @@
 
 /*---------ProjectPage.js------------*/
 #projectIntro {
-    padding: 100px;
+    padding: 130px;
     text-align: center;
 }
 
@@ -88,6 +133,7 @@
 
 #passionIntro {
     text-align: center;
+    margin-top: 20px;
 }
 
 .passionItems img {
@@ -117,5 +163,5 @@
 
 #contactIcon {
     text-align: center;
-    margin-bottom: 15%;
+    margin-bottom: 22%;
 }
