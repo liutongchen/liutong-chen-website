@@ -10,22 +10,31 @@
 
 /*-------App.js-----------*/
 .navbar-brand {
-    min-height: 150px;
+    min-height: 100px;
 }
 
 .navbar.navbar-inverse{
     margin-bottom: 0;
+    background-color:#edded9;
+    border:#edded9;
+}
+
+.navbar-right {
+    margin-top: 30px;
+    font-size: 18px;
 }
 
 /*---------HomePage.js----------*/
 #homePageTitle {
-    padding-top: 200px;
-    padding-bottom: 250px;
+    padding-top: 100px;
+    padding-bottom: 420px;
     text-align: center;
     background-size: cover;
-    background-color: #edded9;
+    background: url("http://res.cloudinary.com/dla0ocfbw/image/upload/v1500418909/personalWebsite/Screen_Shot_2017-07-18_at_4.01.09_PM.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     margin: 0;
-    
 }
 
 #homePageSelfie {
