@@ -54,6 +54,10 @@ p {
     opacity: 0;
 }
 
+#navbarSelfie {
+    height: 100%;
+}
+
 .navbar-inverse .navbar-nav .active a,
 .navbar-inverse .navbar-nav .active a:hover,
 .navbar-inverse .navbar-nav .active a:focus,
@@ -71,6 +75,10 @@ p {
     text-align: center;
     padding: 30px;
     background-color: #ecf7fd;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    font-weight: bold;
 }
 /*---------HomePage.js----------*/
 h1 {
@@ -208,7 +216,7 @@ h1 {
 
 #contactPageTitle {
     text-align: center;
-    margin-top: 8%;
+    margin-top: 10%;
     margin-bottom: 5%;
 }
 

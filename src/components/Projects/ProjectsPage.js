@@ -2,6 +2,7 @@ import React from 'react';
 import personalInfo from '../../../src/info';
 import {Row, Col} from 'react-bootstrap';
 import ProjectComponents from './projectComponents';
+import ScrollToTopOnMount from '../commons/ScrollToTopOnMount';
 
 class ProjectsPage extends React.Component {
 
@@ -9,6 +10,7 @@ class ProjectsPage extends React.Component {
         
         return (
             <div>
+                <ScrollToTopOnMount/>
                 <Row id="projectIntro">
                     <img 
                         src="https://image.shutterstock.com/z/stock-vector-cartoon-girl-types-on-a-laptop-97727552.jpg" 

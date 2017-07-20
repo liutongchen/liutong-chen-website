@@ -1,10 +1,12 @@
 import React from 'react';
 import personalInfo from '../../../src/info'; 
 import {Col, Row} from 'react-bootstrap';
+import ScrollToTopOnMount from '../commons/ScrollToTopOnMount';
 
 const HomePage = () => {
     return (
         <div>
+            <ScrollToTopOnMount/>
             <div id="homePageTitle">
                 <h1>Hey, I'm Liutong.</h1>
                 <p>A software developer</p>

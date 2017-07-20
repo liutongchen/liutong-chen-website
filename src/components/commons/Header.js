@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import personalInfo from '../../../src/info';
 import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
+import { Link } from 'react-router-dom';
 
 //globals
 let didScroll = false;
@@ -55,7 +56,7 @@ class Header extends React.Component {
                 <Navbar inverse collapseOnSelect id="navbar" className="nav-down">
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <img id="navbarSelfie" className="img-circle" src={personalInfo.basicInfo.selfie} />
+                            <Link to="/"><img id="navbarSelfie" className="img-circle" src={personalInfo.basicInfo.selfie} /></Link>
                         </Navbar.Brand>
                         <Navbar.Toggle />
                     </Navbar.Header>
