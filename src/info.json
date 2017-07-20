@@ -14,6 +14,26 @@
 
     "projects": [
         {
+            "title": "PCs4Kids",
+            "image": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500332211/personalWebsite/pcs4kids-logo-no.png",
+            "link": "http://www.pcs4kids.org/",
+            "projectInfo": "My job as a web developer in this project includes: planning and prototyping new applications, designing the architecture of the components, tesing sites and applications in different browsers and environments and fixing bugs in existing projects.",
+            "tech": ["Javascript"]
+        },
+        {
+            "title": "Kicktasks",
+            "image":"http://res.cloudinary.com/dla0ocfbw/image/upload/v1500078827/personalWebsite/Screen_Shot_2017-07-14_at_5.29.42_PM.png",
+            "link": "https://github.com/liutongchen/Kicktasks",
+            "projectInfo": "A single-page task management web application that combines a todolist, pomodoro and a goalmonitoring tool that works as scrum.", "tech": ["ReactJS", "Redux", "Bootstrap"] 
+        }, 
+        {
+            "title": "GZWT Company Website",
+            "image": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500332214/personalWebsite/Screen_Shot_2017-07-17_at_3.49.08_PM.png",
+            "link": "https://github.com/liutongchen/Guangzhou-Whole-sale-trading-Co.-LTD",
+            "projectInfo": "An ongoing company website for Guangzhou Whole-sale Trading Company, China.",
+            "tech": ["Bootstrap", "jQuery"]
+        },
+        {
             "title": "Gomoku Game",
             "image": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500078412/personalWebsite/Gomoku.jpg",
             "link": "https://codepen.io/Liutongchen/pen/YQRPEZ",
@@ -21,30 +41,11 @@
             "tech": ["ReactJS"]
         },
         {
-            "title": "Kicktasks",
-            "image":"http://res.cloudinary.com/dla0ocfbw/image/upload/v1500078827/personalWebsite/Screen_Shot_2017-07-14_at_5.29.42_PM.png",
-            "link": "https://github.com/liutongchen/Kicktasks",
-            "projectInfo": "A single-page task management web application that combines a todolist, pomodoro and a goalmonitoring tool that works as scrum.", "tech": ["ReactJS", "Redux", "Bootstrap"] }, 
-        {
-            "title": "GZWT Company's Website",
-            "image": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500332214/personalWebsite/Screen_Shot_2017-07-17_at_3.49.08_PM.png",
-            "link": "https://github.com/liutongchen/Guangzhou-Whole-sale-trading-Co.-LTD",
-            "projectInfo": "An ongoing company website for Guangzhou Whole-sale Trading Company, China.",
-            "tech": ["Bootstrap", "jQuery"]
-        },
-        {
             "title": "Battleship Game",
             "image":"http://res.cloudinary.com/dla0ocfbw/image/upload/v1500332211/personalWebsite/battleship.jpg",
             "link": "https://github.com/liutongchen/Interactive-programming-in-python",
             "projectInfo": "A guessing game for two players.",
             "tech": ["Python"]
-        },
-        {
-            "title": "PCs4Kids",
-            "image": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500332211/personalWebsite/pcs4kids-logo-no.png",
-            "link": "http://www.pcs4kids.org/",
-            "projectInfo": "Wait until Mugdha give me the detailed jd",
-            "tech": ["Javascript"]
         }
     ],
 
@@ -80,14 +81,14 @@
 
         "items": [
             {
-                "name": "Environmental Protection",
-                "img": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500339675/personalWebsite/IMG_6985.jpg",
-                "description": "To help our younger generation understand how human activities can influence the life of other animals on the planet, I work as a part-time marine Educator at Vancouver Aquarium Marine Science Center. "
-            },
-            {
                 "name": "Education Equality",
                 "img": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500339673/personalWebsite/PCs4Kids.png",
                 "description": "I work as a web developer for a non-profit organization called PCs4Kids that creates an amazing children-friendly software interface filled with a package of free educational software contents for children from Kindergarten to Grade 12 using recycled computers."
+            },
+            {
+                "name": "Environmental Protection",
+                "img": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500339675/personalWebsite/IMG_6985.jpg",
+                "description": "To help our younger generation understand how human activities can influence the life of other animals on the planet, I work as a part-time marine Educator at Vancouver Aquarium Marine Science Center. "
             },
             {
                 "name": "Zero Hunger",
