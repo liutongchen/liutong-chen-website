@@ -9,16 +9,21 @@ const PassionComponents = ({passionList}) => {
                 <Col mdOffset={3} md={6} className="passionItems" key={item.name}>
                     {
                         index % 2 !== 0 ?
-                        <img 
-                            className="img-circle" 
-                            src={item.img} 
-                            style={{float:"right", marginLeft: "10%"}} 
-                            alt="passion img"/>:
-                        <img 
-                            className="img-circle" 
-                            src={item.img} 
-                            style={{float:"left", marginRight: "10%"}} 
-                            alt="passion img"/>
+                        <a href={item.link} target="_blank">
+                            <img 
+                                className="img-circle" 
+                                src={item.img} 
+                                style={{float:"right", marginLeft: "10%"}} 
+                                alt="passion img"/>
+                        </a>
+                        :
+                        <a href={item.link} target="_blank">
+                            <img 
+                                className="img-circle" 
+                                src={item.img} 
+                                style={{float:"left", marginRight: "10%"}} 
+                                alt="passion img"/>
+                        </a>
                     }
                     
                     <h3>{item.name}</h3>

@@ -9,7 +9,7 @@ const PassionPage = () => {
         <div>
             <ScrollToTopOnMount/>
             <Row id="passionIntro">
-                <img src={personalInfo.passion.intro.img} alt="earth pic"/>
+                <img className="img-fluid" src={personalInfo.passion.intro.img} alt="earth pic"/>
                 <h2>{personalInfo.passion.intro.motto}</h2>
                 <Col mdOffset={4} md={4}>{personalInfo.passion.intro.description}</Col>
             </Row>

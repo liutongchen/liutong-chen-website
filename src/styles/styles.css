@@ -70,6 +70,10 @@ p {
     background-color: transparent;
 }
 
+.collapse.in {
+    background-color: #bbe4f9;
+}
+
 /*----------Footer.js-------------*/
 #footer {
     position: absolute;
@@ -98,16 +102,16 @@ h1 {
 }
 
 #homePageTitle {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 420px;
     text-align: center;
     background-size: cover;
     background-color: #ecf7fd;
+    background-image: url("http://res.cloudinary.com/dla0ocfbw/image/upload/v1500580356/personalWebsite/Screen_Shot_2017-07-20_at_12.50.45_PM.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     margin: 0;
-    /*color: #284764*/
     color: #507e9a;
 }
 
@@ -208,8 +212,12 @@ h1 {
 }
 
 .passionItems img {
-    width: 20%;
+    max-width: 100%;
+    height: auto;
+    width: 30%;
+    /*width: 20%;
     min-width: 170px;
+    */
 }
 
 .passionItems{

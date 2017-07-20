@@ -84,16 +84,19 @@
             {
                 "name": "Education Equality",
                 "img": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500339673/personalWebsite/PCs4Kids.png",
-                "description": "I work as a web developer for a non-profit organization called PCs4Kids that creates an amazing children-friendly software interface filled with a package of free educational software contents for children from Kindergarten to Grade 12 using recycled computers."
+                "description": "I work as a web developer for a non-profit organization called PCs4Kids that creates an amazing children-friendly software interface filled with a package of free educational software contents for children from Kindergarten to Grade 12 using recycled computers.",
+                "link": "http://www.pcs4kids.org/" 
             },
             {
                 "name": "Environmental Protection",
                 "img": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500339675/personalWebsite/IMG_6985.jpg",
-                "description": "To help our younger generation understand how human activities can influence the life of other animals on the planet, I work as a part-time marine Educator at Vancouver Aquarium Marine Science Center. "
+                "description": "To help our younger generation understand how human activities can influence the life of other animals on the planet, I work as a part-time marine Educator at Vancouver Aquarium Marine Science Center. ",
+                "link": "https://ocean.org/"
             },
             {
                 "name": "Zero Hunger",
                 "img": "http://tva4.sinaimg.cn/crop.16.11.275.275.180/7ab7fbecjw8esase34soqj208c08c3z3.jpg",
+                "link": "http://www.mianfeiwucan.org/en/",
                 "audioLink": "http://mp.weixin.qq.com/s/zvNFieVBgvJO73HCs3-gag",
                 "description": "For more than three years, I have been working as a radio host for a program named 'Free Lunch for Children', dedicated to providing free lunch to kids of underdeveloped areas in China."
             }

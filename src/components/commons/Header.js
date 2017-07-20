@@ -64,7 +64,7 @@ class Header extends React.Component {
                         <Nav pullRight>
                             <IndexLinkContainer to="/"><NavItem eventKey={1}>Home</NavItem></IndexLinkContainer>
                             <LinkContainer to="/projects"><NavItem eventKey={2}>Projects</NavItem></LinkContainer>
-                            <LinkContainer to="/passion"><NavItem eventKey={3}>Passion</NavItem></LinkContainer>
+                            <LinkContainer to="/passion"><NavItem eventKey={3}>Passions</NavItem></LinkContainer>
                             <LinkContainer to="/contact"><NavItem eventKey={4}>Contact</NavItem></LinkContainer>
                         </Nav>
                     </Navbar.Collapse>
