@@ -153,7 +153,8 @@ h1 {
 }
 
 #projectIntro {
-    padding: 130px;
+    padding-top: 10%;
+    padding-bottom: 15%;
     text-align: center;
 }
 
