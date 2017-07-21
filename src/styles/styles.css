@@ -104,6 +104,7 @@ h1 {
 #homePageTitle {
     padding-top: 80px;
     padding-bottom: 420px;
+    width: 100%;
     text-align: center;
     background-size: cover;
     background-color: #ecf7fd;
