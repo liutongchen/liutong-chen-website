@@ -31,7 +31,7 @@
             "title": "GZWT Company Website",
             "image": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500332214/personalWebsite/Screen_Shot_2017-07-17_at_3.49.08_PM.png",
             "link": "https://github.com/liutongchen/Guangzhou-Whole-sale-trading-Co.-LTD",
-            "projectInfo": "An ongoing company website for Guangzhou Whole-sale Trading Company, China.",
+            "projectInfo": "A website for Guangzhou Whole-sale Trading Company, China.",
             "tech": ["Bootstrap", "jQuery"]
         },
         {
@@ -90,7 +90,7 @@
             {
                 "name": "Environmental Protection",
                 "img": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500339675/personalWebsite/IMG_6985.jpg",
-                "description": "To help our younger generation understand how human activities can influence the life of other animals on the planet, I work as a part-time marine Educator at Vancouver Aquarium Marine Science Center. ",
+                "description": "I work as a part-time marine Educator at Vancouver Aquarium Marine Science Center to teach younger generations how human activities can influence our planet earth. ",
                 "link": "https://ocean.org/"
             },
             {
