@@ -19,7 +19,7 @@ const ContactPage = () => {
             <h2 id="contactPageTitle">Let's get in touch!</h2>
             <Row id="contactIcon">
 
-                <Col xs={2} xsOffset={3} sm={2} smOffset={3} md={2} mdOffset={3}>
+                <Col xs={4} sm={2} smOffset={3} md={2} mdOffset={3}>
                     <OverlayTrigger placement="bottom" overlay={gmailTooltip}>
                         <a href={"mailto:" + personalInfo.basicInfo.email}>
                             <img src="http://res.cloudinary.com/dla0ocfbw/image/upload/v1500355125/personalWebsite/email-icon.ico" alt="email" />
@@ -27,7 +27,7 @@ const ContactPage = () => {
                     </OverlayTrigger>
                 </Col>
 
-                <Col xs={2} sm={2} md={2}>
+                <Col xs={4} sm={2} md={2}>
                     <OverlayTrigger placement="bottom" overlay={linkedinTooltip}>
                         <a href={personalInfo.basicInfo.linkedin}>
                             <img src="http://res.cloudinary.com/dla0ocfbw/image/upload/v1500355124/personalWebsite/linkedin-icon.png" alt="linkedin" />
@@ -35,7 +35,7 @@ const ContactPage = () => {
                     </OverlayTrigger>
                 </Col>
 
-                <Col xs={2} sm={2} md={2}>
+                <Col xs={4} sm={2} md={2}>
                     <OverlayTrigger placement="bottom" overlay={githubTooltip}>
                         <a href={personalInfo.basicInfo.github}>
                             <img src="http://res.cloudinary.com/dla0ocfbw/image/upload/v1500353959/personalWebsite/github-icon.png" alt="github" />

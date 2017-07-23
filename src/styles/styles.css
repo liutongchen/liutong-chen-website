@@ -239,6 +239,11 @@ h1 {
     margin-bottom: 5%;
 }
 
+@media (max-width: 480px){
+    #passionPage {
+        margin: 15px;
+    }
+}
 /*-------------ContactPage.js----------*/
 #contactIcon img{
     width: 60%;    
@@ -253,4 +258,10 @@ h1 {
 #contactIcon {
     text-align: center;
     margin-bottom: 16%;
+}
+
+@media (max-width: 480px){
+    #contactPageTitle { 
+        margin-top: 30%;
+    }
 }

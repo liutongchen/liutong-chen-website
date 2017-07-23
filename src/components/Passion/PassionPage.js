@@ -6,7 +6,7 @@ import ScrollToTopOnMount from '../commons/ScrollToTopOnMount';
 
 const PassionPage = () => {
     return (
-        <div>
+        <div id="passionPage">
             <ScrollToTopOnMount/>
             <Row id="passionIntro">
                 <img className="img-fluid" src={personalInfo.passion.intro.img} alt="earth pic"/>
