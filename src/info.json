@@ -28,11 +28,11 @@
             "projectInfo": "A single-page task management web application that combines a todolist, pomodoro and a goalmonitoring tool that works as scrum.", "tech": ["ReactJS", "Redux", "Bootstrap"] 
         }, 
         {
-            "title": "GZWT Company Website",
-            "image": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500332214/personalWebsite/Screen_Shot_2017-07-17_at_3.49.08_PM.png",
-            "link": "https://github.com/liutongchen/Guangzhou-Whole-sale-trading-Co.-LTD",
-            "projectInfo": "A website for Guangzhou Whole-sale Trading Company, China.",
-            "tech": ["Bootstrap", "jQuery"]
+            "title": "IIaaS",
+            "image": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1503450593/Express-2_gpixbs.jpg",
+            "link": "https://github.com/liutongchen/iiaas-server",
+            "projectInfo": "IIaaS stands for 'Incrementing Integer as a Service'. It's a toy project including a set of RESTful APIs as well as an SPA client.",
+            "tech": ["node.js", "express.js", "gulp", "ReactJS", "Redux"]
         },
         {
             "title": "Gomoku Game",
