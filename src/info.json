@@ -7,7 +7,7 @@
         "linkedin": "https://www.linkedin.com/in/liutongchen/",
         "tel": "(+1)778-317-2955",
         "selfie": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1499990718/personalWebsite/IMG_6962.jpg",
-        "resume": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1503452810/Liutong_Chen_SDE.pdf"
+        "resume": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1513545130/personalWebsite/Liutong_Chen_SDE.pdf"
     },
 
     "overview": "I am a software developer based in Vancouver, Canada. I am passionate about making the world a better place through technology and creativity.",
@@ -15,10 +15,17 @@
 
     "projects": [
         {
-            "title": "PCs4Kids",
+            "title": "Ecoation - Software Engineer Intern",
+            "image": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1513540976/personalWebsite/ecoation-logo-h330.png",
+            "link": "http://www.newventuresbc.com/2017/09/ecoation-innovative-solutions-tops-list-growing-startups-2017-competition/",
+            "projectInfo": "1) Full-stack development on a responsive web application that presents users with real-time data visualization and interaction from machine learning models. 2) Work with data science team to develop serverless backend APIs. 3) Fix frontend and backend bugs and implement integration test. 4) Prepare technical documentation for the deployment, maintenance, and use of software.",
+            "tech": ["React.js", "Redux", "D3.js", "Express.js", "AWS", "Mocha", "Chai", "Material Design"]
+        },
+        {
+            "title": "PCs4Kids - Game Developer",
             "image": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500332211/personalWebsite/pcs4kids-logo-no.png",
             "link": "http://www.pcs4kids.org/",
-            "projectInfo": "My job as a web developer in this project includes: planning and prototyping new applications, designing the architecture of the components, tesing sites and applications in different browsers and environments and fixing bugs in existing projects.",
+            "projectInfo": "My job as a game developer in this project includes: 1) planning and prototyping new applications; 2) designing the architecture of the components; 3) testing sites and applications in different browsers and environments and fixing bugs in existing projects.",
             "tech": ["Javascript"]
         },
         {
@@ -26,13 +33,6 @@
             "image":"http://res.cloudinary.com/dla0ocfbw/image/upload/v1500078827/personalWebsite/Screen_Shot_2017-07-14_at_5.29.42_PM.png",
             "link": "https://github.com/liutongchen/Kicktasks",
             "projectInfo": "A single-page task management web application that combines a todolist, pomodoro and a goalmonitoring tool that works as scrum.", "tech": ["ReactJS", "Redux", "Bootstrap"] 
-        }, 
-        {
-            "title": "IIaaS",
-            "image": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1503450593/Express-2_gpixbs.jpg",
-            "link": "https://github.com/liutongchen/iiaas-server",
-            "projectInfo": "IIaaS stands for 'Incrementing Integer as a Service'. It's a toy project including a set of RESTful APIs as well as an SPA client.",
-            "tech": ["node.js", "express.js", "gulp", "ReactJS", "Redux"]
         },
         {
             "title": "Gomoku Game",

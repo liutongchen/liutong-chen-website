@@ -170,7 +170,7 @@ h1 {
     font-size: 18px;
 }
 
-#pcs4kids {
+#pcs4kids-gamedeveloper {
     background-color: #f9f89f;
     color: #284764
 }
@@ -210,6 +210,20 @@ h1 {
 #battleshipgame img {
     width: 20%;
 }
+
+#ecoation-softwareengineerintern {
+    background-color: #94c1e8;
+    color: #ecefea
+}
+
+#ecoation-softwareengineerintern h3{
+    color: 	white
+}
+
+#ecoation-softwareengineerintern img {
+    width: 20%;
+}
+
 /*----------------PassionPage.js----------*/
 #passionIntro img {
     width: 30%
