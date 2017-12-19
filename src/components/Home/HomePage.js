@@ -9,7 +9,7 @@ const HomePage = () => {
             <ScrollToTopOnMount/>
             <div id="homePageTitle">
                 <h1 style={{fontSize: "42px"}}>Hey, I'm Liutong.</h1>
-                <p>A software developer</p>
+                <p>A Software Engineer</p>
             </div>
             <Row id="overview">
                 <img id="homePageSelfie" src={personalInfo.basicInfo.selfie} alt="Liutong's Pic" className="img-circle"/>
