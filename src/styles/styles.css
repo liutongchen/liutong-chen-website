@@ -224,6 +224,14 @@ h1 {
     width: 20%;
 }
 
+#aytechnologies-softwareengineer {
+    background-color: #ea9ec5;
+}
+
+#aytechnologies-softwareengineer img {
+    width: 15%;
+}
+
 /*----------------PassionPage.js----------*/
 #passionIntro img {
     width: 30%
