@@ -34,26 +34,6 @@
             "link": "http://www.pcs4kids.org/",
             "projectInfo": "My job as a game developer in this project includes: 1) planning and prototyping new applications; 2) designing the architecture of the components; 3) testing sites and applications in different browsers and environments and fixing bugs in existing projects.",
             "tech": ["Javascript"]
-        },
-        {
-            "title": "Kicktasks",
-            "image":"http://res.cloudinary.com/dla0ocfbw/image/upload/v1500078827/personalWebsite/Screen_Shot_2017-07-14_at_5.29.42_PM.png",
-            "link": "https://github.com/liutongchen/Kicktasks",
-            "projectInfo": "A single-page task management web application that combines a todolist, pomodoro and a goalmonitoring tool that works as scrum.", "tech": ["ReactJS", "Redux", "Bootstrap"] 
-        },
-        {
-            "title": "Gomoku Game",
-            "image": "http://res.cloudinary.com/dla0ocfbw/image/upload/v1500078412/personalWebsite/Gomoku.jpg",
-            "link": "https://codepen.io/Liutongchen/pen/YQRPEZ",
-            "projectInfo": "A Japanese strategy board game between two players.",
-            "tech": ["ReactJS"]
-        },
-        {
-            "title": "Battleship Game",
-            "image":"http://res.cloudinary.com/dla0ocfbw/image/upload/v1500332211/personalWebsite/battleship.jpg",
-            "link": "https://github.com/liutongchen/Interactive-programming-in-python",
-            "projectInfo": "A guessing game for two players.",
-            "tech": ["Python"]
         }
     ],
 
